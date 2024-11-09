@@ -1,0 +1,38 @@
+export const MESSAGES = {
+  SUCCESS: {
+    USER_REGISTRATION_SUCCESS: "User registered successfully.",
+    DOCUMENT_UPLOADED: "Document uploaded successfully",
+    DOCUMENTS_RETRIEVED: "Document's successfully retrieved.",
+    DOCUMENT_DELETED: "Document's successfully deleted.",
+  },
+  ERROR: {
+    NO_FILES_SELECTED: "No File Selected or Invalid file.",
+    INVALID_ROLE: "Invalid role.",
+    EMPTY_TOKEN: "Access Token is required.",
+    LOGIN_FAILED: "Login failed.",
+    USER_NOT_FOUND: "User not found.",
+    USER_ALREADY_EXIST: "Username already exists.",
+    DOCUMENT_NOT_FOUND: "Document not found.",
+    DOCUMENTS_NOT_FOUND: "Document's not found.",
+    UPLOAD_FILE_ERROR: "File could not be uploaded.",
+    USER_FILES_RETRIEVE: "Error while retrieving files.",
+    USER_FILES_DELETE: "Error while deleting files.",
+    INVALID_CREDS: "Invalid credentials.",
+    INVALID_TOKEN: "Invalid token.",
+    USER_NOT_AN_ADMIN: "User is not a admin.",
+    FAILED_TO_REGISTER_USER: "Failed to register user.",
+    SHORT_VALUE_ERROR: "Value is too short or too long.",
+    EMPTY_PASSWORD: "Password is required.",
+    USER_LOGGED_OUT: "User successfully logged out!.",
+    INVALID_PASSWORD:
+      "Password Invalid format. Password should have a minimum length of 8 characters, must have an uppercase, lowercase, special character and a number.",
+  },
+  LOGGING: {
+    USER_ROLE_UPDATED: "User role updated.",
+    REFRESH_TOKEN_FAILURE: "Failed to refresh token",
+    ERROR_WHILE_UPDATING_USER_ROLE: "Failed to update user role.",
+    LOGIN_FAILED: "Login failed.",
+    USER_REGISTRATION_LOGGER: "User registered and user data is : ",
+    USER_DTO_RESPONSE_LOGGER: "User dto response is : ",
+  },
+};
